@@ -1,0 +1,22 @@
+{
+  "name": "@vikasrathod4299/linked-list-generic",
+  "version": "1.0.0",
+  "description": "likedlist data structure.",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikasrathod4299/linked-list-generic.git"
+  },
+  "author": "vikas rathod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikasrathod4299/linked-list-generic/issues"
+  },
+  "homepage": "https://github.com/vikasrathod4299/linked-list-generic#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
