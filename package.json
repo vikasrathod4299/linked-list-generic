@@ -2,7 +2,7 @@
   "name": "linked-list-generic",
   "version": "1.2.0",
   "description": "likedlist data structure.",
-  "main": "src/app.ts",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,8 @@
     "url": "https://github.com/vikasrathod4299/linked-list-generic/issues"
   },
   "homepage": "https://github.com/vikasrathod4299/linked-list-generic#readme",
-  "dependencies": {
+  
+  "devDependencies": {
     "ts-node": "^10.9.1"
   }
 }
