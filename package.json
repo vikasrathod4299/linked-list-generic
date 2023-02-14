@@ -1,6 +1,6 @@
 {
   "name": "@vikasrathod4299/linked-list-generic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "likedlist data structure.",
   "main": "src/app.ts",
   "scripts": {
