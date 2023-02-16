@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --format esm,cjs --dts --clean"
-    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vikasrathod4299/linked-list-generic.git"
   },
+  "keywords": [
+    "Linked-list",
+    "Data-structure",
+    "Generic",
+    "Typescript"
+  ],
   "author": "vikas rathod",
   "license": "MIT",
   "bugs": {
@@ -19,7 +24,6 @@
   },
   "homepage": "https://github.com/vikasrathod4299/linked-list-generic#readme",
   "devDependencies": {
-    "ts-node": "^10.9.1",
     "tsup": "^6.6.3"
   }
 }
