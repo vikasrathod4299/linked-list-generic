@@ -2,9 +2,11 @@
   "name": "linked-list-generic",
   "version": "1.1.0",
   "description": "likedlist data structure.",
-  "main": "dist/app.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean"
+    
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/vikasrathod4299/linked-list-generic#readme",
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tsup": "^6.6.3"
   }
 }
